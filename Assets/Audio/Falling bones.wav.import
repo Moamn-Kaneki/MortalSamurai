@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://t48st5tpwg4i"
+path="res://.godot/imported/Falling bones.wav-63ab7b3441e57572859f2ba61c7597a8.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Falling bones.wav"
+dest_files=["res://.godot/imported/Falling bones.wav-63ab7b3441e57572859f2ba61c7597a8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

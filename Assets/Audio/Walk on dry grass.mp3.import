@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cfgkl6ry5hrds"
+path="res://.godot/imported/Walk on dry grass.mp3-cadcacbb539d79b7f4bcc07f173c7902.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Walk on dry grass.mp3"
+dest_files=["res://.godot/imported/Walk on dry grass.mp3-cadcacbb539d79b7f4bcc07f173c7902.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://gagn2qd8xlvt"]
+
+[ext_resource type="Script" path="res://Game_Manager.gd" id="1_eqoht"]
+[ext_resource type="PackedScene" uid="uid://bjhp3mmknvj2m" path="res://Scenes/Main.tscn" id="1_p70h1"]
+[ext_resource type="PackedScene" uid="uid://qam36i52fgu3" path="res://UI/pause_menu.tscn" id="2_5xsj1"]
+[ext_resource type="PackedScene" uid="uid://d02gf6ypeno4d" path="res://Scenes/Death.tscn" id="3_jrxw8"]
+
+[node name="GameManager" type="Node"]
+process_mode = 3
+script = ExtResource("1_eqoht")
+
+[node name="Main" parent="." instance=ExtResource("1_p70h1")]
+
+[node name="Death" parent="." instance=ExtResource("3_jrxw8")]
+process_mode = 4
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="PauseMenu" parent="CanvasLayer" node_paths=PackedStringArray("game_manager") instance=ExtResource("2_5xsj1")]
+game_manager = NodePath("../..")

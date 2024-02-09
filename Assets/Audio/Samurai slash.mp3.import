@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d2w4cqfprdcaq"
+path="res://.godot/imported/Samurai slash.mp3-ee2feac290241bb12d70456734f61657.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Samurai slash.mp3"
+dest_files=["res://.godot/imported/Samurai slash.mp3-ee2feac290241bb12d70456734f61657.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

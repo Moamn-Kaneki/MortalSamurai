@@ -1,0 +1,249 @@
+[gd_scene load_steps=32 format=3 uid="uid://su7yv6dw6e5j"]
+
+[ext_resource type="Script" path="res://UI/back1.gd" id="1_3afwp"]
+[ext_resource type="Texture2D" uid="uid://dibf841rhqlap" path="res://Assets/Background/main_background.png" id="1_6aeoi"]
+[ext_resource type="Script" path="res://UI/MainMenu.gd" id="1_ev785"]
+[ext_resource type="Texture2D" uid="uid://csckvv8weucdw" path="res://Assets/Background/bgrd_tree5.png" id="2_rclwk"]
+[ext_resource type="Script" path="res://UI/back2.gd" id="3_ord0r"]
+[ext_resource type="Texture2D" uid="uid://co1qbhie05ew7" path="res://Assets/Background/bgrd_tree4.png" id="3_yskaf"]
+[ext_resource type="Texture2D" uid="uid://bga1teoiwp11d" path="res://Assets/Background/bgrd_tree3.png" id="4_p8bdv"]
+[ext_resource type="Script" path="res://UI/back3.gd" id="5_0tg87"]
+[ext_resource type="Texture2D" uid="uid://btcp4pkcjpmj6" path="res://Assets/Background/bgrd_tree2.png" id="5_ooa3b"]
+[ext_resource type="Texture2D" uid="uid://dgjosy8utnh28" path="res://Assets/Background/Screenshot 2023-08-07 045044.png" id="6_i1uqc"]
+[ext_resource type="Script" path="res://UI/back4.gd" id="7_crlur"]
+[ext_resource type="Script" path="res://UI/back5.gd" id="9_8abmr"]
+[ext_resource type="Texture2D" uid="uid://clj4ftk2nbgni" path="res://Assets/Background/bgrd_tree1.png" id="9_gfctr"]
+[ext_resource type="Script" path="res://UI/back6.gd" id="11_ltmt0"]
+[ext_resource type="Script" path="res://UI/front.gd" id="13_ol4mt"]
+[ext_resource type="Texture2D" uid="uid://dkt5ddsgqb8qt" path="res://Assets/Spirits/Martial Hero/Sprites/Run.png" id="14_h8310"]
+[ext_resource type="AudioStream" uid="uid://1ntxfjc4ekqy" path="res://Assets/Audio/Owl.mp3" id="16_ehikn"]
+[ext_resource type="AudioStream" uid="uid://gmf77th523le" path="res://Assets/Audio/Night Woods.mp3" id="17_l4mfe"]
+[ext_resource type="Texture2D" uid="uid://xuor2irs5xvf" path="res://Assets/UI/mortal-samurai-high-resolution-logo-transparent.png" id="18_sisgy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rjbx3"]
+atlas = ExtResource("14_h8310")
+region = Rect2(0, 0, 200, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mh6vh"]
+atlas = ExtResource("14_h8310")
+region = Rect2(200, 0, 200, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u7sg6"]
+atlas = ExtResource("14_h8310")
+region = Rect2(400, 0, 200, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ikim0"]
+atlas = ExtResource("14_h8310")
+region = Rect2(600, 0, 200, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_41lto"]
+atlas = ExtResource("14_h8310")
+region = Rect2(800, 0, 200, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p1lf0"]
+atlas = ExtResource("14_h8310")
+region = Rect2(1000, 0, 200, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ciki7"]
+atlas = ExtResource("14_h8310")
+region = Rect2(1200, 0, 200, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_at51o"]
+atlas = ExtResource("14_h8310")
+region = Rect2(1400, 0, 200, 200)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m6op6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rjbx3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mh6vh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u7sg6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ikim0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_41lto")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p1lf0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ciki7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_at51o")
+}],
+"loop": true,
+"name": &"run",
+"speed": 16.0
+}]
+
+[sub_resource type="FontFile" id="FontFile_iqt8p"]
+cache/0/75/0/ascent = 0.0
+cache/0/75/0/descent = 0.0
+cache/0/75/0/underline_position = 0.0
+cache/0/75/0/underline_thickness = 0.0
+cache/0/75/0/scale = 1.0
+cache/0/75/0/kerning_overrides/75/0 = Vector2(0, 0)
+cache/0/75/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/75/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+
+[sub_resource type="Theme" id="Theme_nm5wr"]
+Button/font_sizes/font_size = 75
+Button/fonts/font = SubResource("FontFile_iqt8p")
+
+[sub_resource type="Theme" id="Theme_uu33s"]
+Button/font_sizes/font_size = 50
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ev785")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.01, 1)
+motion_mirroring = Vector2(1536, 0)
+script = ExtResource("1_3afwp")
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(614, 336)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_6aeoi")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.2, 1)
+motion_mirroring = Vector2(1224, 0)
+script = ExtResource("3_ord0r")
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+position = Vector2(614, 275)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("2_rclwk")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.4, 1)
+motion_mirroring = Vector2(1224, 0)
+script = ExtResource("5_0tg87")
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+position = Vector2(614, 300)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("3_yskaf")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.6, 1)
+motion_mirroring = Vector2(1224, 0)
+script = ExtResource("7_crlur")
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
+position = Vector2(614, 325)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("4_p8bdv")
+
+[node name="ParallaxLayer5" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.8, 1)
+motion_mirroring = Vector2(1224, 0)
+script = ExtResource("9_8abmr")
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer5"]
+position = Vector2(614, 375)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("5_ooa3b")
+
+[node name="ParallaxLayer6" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2(1216, 0)
+script = ExtResource("11_ltmt0")
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer6"]
+position = Vector2(609, 615)
+scale = Vector2(9.5, 9.5)
+texture = ExtResource("6_i1uqc")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(596, 519)
+scale = Vector2(2.5, 2.5)
+sprite_frames = SubResource("SpriteFrames_m6op6")
+animation = &"run"
+autoplay = "run"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -213.0
+offset_top = 2.0
+offset_right = 214.0
+offset_bottom = 466.0
+grow_horizontal = 2
+texture = ExtResource("18_sisgy")
+expand_mode = 1
+
+[node name="ParallaxBackground2" type="ParallaxBackground" parent="."]
+layer = 100
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground2"]
+motion_scale = Vector2(1.5, 1)
+motion_mirroring = Vector2(1224, 0)
+script = ExtResource("13_ol4mt")
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground2/ParallaxLayer"]
+position = Vector2(614, 500)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_gfctr")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = -248.0
+offset_right = 169.0
+offset_bottom = -22.0
+grow_vertical = 0
+
+[node name="Play" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_nm5wr")
+text = "Play"
+alignment = 0
+
+[node name="Exit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_uu33s")
+text = "Exit"
+alignment = 0
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16_ehikn")
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17_l4mfe")
+autoplay = true
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 4.0
+autostart = true
+
+[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/Exit" to="." method="_on_exit_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
